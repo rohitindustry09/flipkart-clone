@@ -1,0 +1,238 @@
+
+.nav-underline {
+  gap: 0;
+}
+.nav-underline .nav-link {
+  color: black;
+  border: none;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  border-bottom: 2px solid white;
+  transition: all 0.15s;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid red;
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.btn-for-pincode {
+  background: red;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s;
+}
+.btn-for-pincode:active {
+  background: #ff8181;
+}
+
+        .wow-tag {
+          font-size: .7rem;
+            display: inline-block;
+            padding: 2px 5px;
+            background-color: #ff464c;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            border-radius: 5px;
+            border: 1px solid #f0efef;
+            position: relative;
+            margin-right: 5px;
+        }
+
+.wow-top-offers {
+  color: #646464;
+}
+.discounts {
+  display: flex;
+  align-content: center;
+  column-gap: 0.5rem;
+}
+.discounts .discount-percentage {
+  color: #ff464c;
+  font-weight: bold;
+}
+.discounts .actual-cost {
+  font-size: 1.2rem;
+}
+.queries-for-carts {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.queries-for-carts .query {
+  width: 50%;
+  padding: 12px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  font-weight: bold;
+  background: white;
+  color: #8d8d8d !important;
+  border: none;
+}
+.query i {
+  color: #ff464c;
+}
+button {
+  border-top: 1px solid #cbcbcb !important;
+  border-bottom: none;
+}
+.remove {
+  border-right: 1px solid #cbcbcb !important;
+  border-left: 1px solid #cbcbcb !important;
+}
+
+.scrolling-wrapper {
+  overflow-x: auto; /* Enables horizontal scroll */
+ /* white-space: nowrap;*/
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+.scrolling-wrapper .card {
+  display: inline-block;
+  margin-right: 15px;  /* Space between cards */
+}
+
+.scroll-items {
+   background: linear-gradient(to bottom, white 50%, transparent 50%);
+   border: 2px solid #d2d2d2;
+   height: 20rem;
+   margin: 0 1rem;
+   width: 80% !important;
+   border-radius: 10px;
+   overflow: hidden;
+   padding: 0 !important;
+   /* display: flex;
+   justify-content: center; */
+}
+.scroll-image-container {
+  height: 50%;
+  width: 110%;
+  positiozn: relative;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll-items .scroll-items-img {
+  flex: 0 0 auto !important;
+   overflow: hidden;
+   height: 90%;
+   width: 100%;
+  /* border: 1px solid black;*/
+   /* border-top-right-radius: 10px;
+   border-top-left-radius: 10px; */
+}
+
+.scroll-items .scroll-items-img .image {
+  object-fit: cover;
+  height: 100%;
+  transform: scale(2.2);
+}
+.scroll-item-details {
+  height: 50%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.scroll-item-details .arrow-view {
+  position: sticky;
+  left: 100%;
+  z-index: 200;
+  transform: translate(70%, -70%) rotate(0deg);
+  transition: all 0.5s;
+}
+.scroll-details-items {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  position: relative;
+  top: 58%;
+  transition: all 0.5s;
+}
+.scroll-details-items:hover {
+  top: 0%;
+}
+.scroll-details-items:hover .arrow-view {
+  transform: rotate(180deg);
+}
+.scroll-items .first {
+  transform: translateX(6rem) rotate(-15deg);
+}
+.scroll-items .last {
+  transform: translateX(-6rem) rotate(15deg);
+}
+.scroll-items .first-mid-last {
+  transform: rotate(15deg);
+  z-index: 100;
+}
+.hover-me-card-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hover-me-card-view {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hover-me-card-view a {
+  font-size: 0.6rem;
+}
+
+.hover-me {
+  transition: all 0.2s;
+  position: relative;
+  left: 0%;
+}
+
+.hover-me:hover{
+  box-shadow: 2px 2px 20px black !important;
+  transform: scale(1.36);
+  left: 20%;
+  z-index: 100;
+}
+
+.row-card-title {
+  font-size: 0.9rem;
+}
+.row-card-desc {
+  font-size: 0.7rem;
+}
+@media (min-width: 786px) {
+  .hover-me-card-view a {
+    font-size: 1rem !important;
+  }
+  .row-card-title {
+    font-size: 1.1rem;
+  }
+  .row-card-desc {
+    font-size: .9rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hover-me-card-view {
+    padding-right: 8rem;
+  }
+}

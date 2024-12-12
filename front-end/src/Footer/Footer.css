@@ -1,0 +1,32 @@
+
+.footer-boss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+  background: #dedede;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  margin: 5px 0;
+}
+.footer-icons {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  background: #d2d2d2;
+  border-radius: 10rem;
+  padding: 1rem;
+}
+
+.footer-about {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-items a {
+  color: black;
+  text-decoration: none;
+  font-size: .8rem;
+}

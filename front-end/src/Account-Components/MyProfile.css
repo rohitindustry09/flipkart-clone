@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .bg-grey {
+    background: #e3e3e478;
+  }
+  .left-arrow-number {
+    padding: 0 1rem;
+    word-spacing: 0.5rem;
+  }
+    .account-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      background: white;
+      margin: 1rem 0;
+    }
+    .account-nav div span {
+      margin: 5px;
+    }
+    .account-coins {
+      border: 2px solid #f0efef;
+      padding: 5px;
+      border-radius: 30px;
+      margin: 0 5px;
+      
+    }
+    .fa-bolt {
+      color: #f9ba0f;
+    }
+    .fa-dot {
+      color: #f9ba0f;
+      font-size: 30px;
+      position: relative;
+      top: 4px;
+    }
+    .customer-list {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      font-size: 1rem;
+      background: white;
+      padding: 0.1rem;
+    }
+    .user-icons {
+      border: 2px solid #f0efef;
+      border-radius: 5px;
+      width: 47%;
+      margin: 0.1rem;
+      padding: 1rem;
+    }
+    .user-icons i, .user-icons span {
+      margin: 2px;
+    }
+  
+    .email-notification {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+        background: white;
+        margin: 5px 0;
+    }
+    .fa-envelope {
+        font-size: 40px;
+        margin: 5px;
+        color: #ffbf64;
+    }
+    .fa-arrow-left {
+      color: black;
+    }
+    .fa-angle-right {
+      color: black;
+    }
+    .texts {
+        margin: 10px;
+        width: 100%;
+    }
+    .email-icon {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .update {
+        padding: 7px 10px;
+        font-size: 15px;
+        background: #3737ff;
+        border: none;
+        letter-spacing: 1px;
+        font-weight: bold;
+        border-radius: 5px;
+        color: white;
+        margin: 5px;
+    }
+    .credit-and-score-option {
+      background: white;
+      padding: 10px;
+      margin: 5px 0;
+    }
+    .get-text {
+      font-size: 15px;
+    }
+    .credit-option h4 {
+      display: inline-block;
+    }
+    .fa-credit-card {
+      font-size: 15px;
+    }
+    .heading-title {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+    .credit-texts span {
+      font-size: 10px;
+    }
+    .credit-option {
+      display: flex;
+      align-items: center;
+     }
+
+.credit-texts {
+  flex-grow: 1; /* Allows the text to take up available space */
+}
+
+.credit-icon {
+  margin-right: 10px; /* Optional spacing between the icon and text */
+}
+
+.fa-solid.fa-angle-right {
+  margin-left: 10px; /* Optional spacing before the arrow */
+}
+
+.recents-show {
+  background: white;
+  padding: 10px;
+}
+    .recents {
+      overflow-x: auto;
+      white-space: nowrap;
+      width: 100%;
+      display: flex;
+      background: white;
+    }
+    .recent-viewed-items {
+      margin: 5px;
+      background: white;
+      height: 9rem;
+      width: 24%;
+      border: 2px solid #f0efef;
+      flex: 0 0 auto;
+      display: flex;
+      justify-content: center;
+      align-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    .image {
+      background: #3737ff;
+      width: 80%;
+      height: 80%;
+      border-radius: 10px;
+    }
+    
+    .account-settings {
+      padding: 10px;
+      background: white;
+      margin: 5px 0;
+    }
+    .profile-settings {
+      font-size: 12px;
+      margin: 10px 0 0 0;
+    }
+    .setting {
+      display: flex;
+      align-items: center;
+    }
+    .setting i, .setting span {
+      margin: 5px;
+    }
+    .setting i {
+      font-size: 15px;
+    }
+    
+    /*whole icons*/
+    i {
+      color: red;
+    }
+
+.logout-parent {
+  padding: 5px 0;
+}
+.logout {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  color: red;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 1rem 0.5rem;
+}

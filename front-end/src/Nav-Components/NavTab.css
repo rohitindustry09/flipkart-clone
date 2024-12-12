@@ -1,0 +1,64 @@
+.navbar {
+  padding-top: 0 !important;
+}
+.nav-container {
+  display: flex !important;
+  font-size: .6rem !important;
+  width: 100%;
+  column-gap: 10px;
+  padding: 5px !important;
+}
+.nav-container .Dropdown-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px !important;
+}
+.nav-container a {
+  font-size: 1rem !important;
+  text-decoration: none;
+  color: black;
+}
+.nav-container input {
+  height: 1.2rem;
+  font-size: .6rem !important;
+  outline: none;
+  box-shadow: none;
+  padding: 0 5px !important;
+}
+.nav-container input:hover {
+  box-shadow: none;
+}
+.nav-container i {
+  font-size: 0.7rem;
+}
+.nav-container .input-others {
+  display: flex;
+  align-items: center;
+  flex: 1 !important;
+}
+
+.nav-container .dropdown-menu {
+  position: absolute;
+  right: 0;
+}
+
+.nav-container .dropdown-menu i {
+  font-size: 0.5rem !important;
+  margin: 0 !important;
+}
+.nav-container .dropdown-menu span {
+  font-size: 0.5rem !important;
+}
+.btn-query-signup-link {
+  font-size: 0.7rem !important;
+  border: none !important;
+  padding: 1px 5px;
+  background: white;
+  border-radius: 20px;
+  color: red;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}

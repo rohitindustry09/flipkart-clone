@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text with Linear Gradient</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Light background for contrast */
+        }
+
+        .gradient-text {
+            font-size: 72px; /* Adjust font size */
+            font-weight: bold; /* Make text bold */
+            background: linear-gradient(to right, #ff0000, #0000ff); /* Define gradient colors */
+
+
+            background-clip: text; /* Standard property for other browsers */
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="gradient-text">Gradient Text Example</h1>
+</body>
+</html>
